@@ -174,3 +174,4 @@ Snake.prototype.setDirection = function (newDirection) {
 };
 
 // The Apple constructor
+// just a comment
