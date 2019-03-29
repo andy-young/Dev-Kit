@@ -19,3 +19,9 @@
 1. adding your Building Blocks
 1. push changes to github :octocat:
 1. celebrate :fire:
+
+## Cool Tools :hammer: and shortcuts :scissors:
+
+1. [Zenhub](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd)
+1. [Vim in Browser](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+1. [move tabs](https://chrome.google.com/webstore/detail/rearrange-tabs/ccnnhhnmpoffieppjjkhdakcoejcpbga)
