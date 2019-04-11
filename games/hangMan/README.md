@@ -47,9 +47,36 @@ CONGRATULATE the player on guessing the word
 ```
 
 So there it is, not bad. I personally like to CAPITALIZE all the _legit_ computer keywords and any function
-names that come to mind when structuring out the behavior--just my way of communicating intent 😉.
+names that come to mind when structuring out the behavior--just my way of communicating intent. 😉
 
 ## Tracking the state of the word
 
+One question to ask is, _"Like traditional HangMan, how can we collect the blank spots for each character?"_ and
+_"How can we represent correctly guessed letters?"_
+
+
+Let's consider an `array` to hold our blank spots.
+
+
+```js
+let secretWord = ['_', '_', '_', '_', '_', '_'];
+```
+
+If the player correctly guessed the letter `a`, we can change the second blank to an `a`:
+
+
+```js
+secretWord = ['_', 'a', '_', '_', '_', '_'];
+```
+
+After guessing all the characters correctly, the `secretWord` array should look like this:
+
+
+```js
+secretWord = ['h', 'a', 'c', 'k', 'e', 'r'];
+```
+
+Now what about keeping track of the guesses? Should we keep track of the correct guesses?..
+ the incorrect guesses?.. both? Can we get by with one variable?
 
 
