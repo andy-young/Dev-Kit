@@ -4,7 +4,7 @@
 
 ```js
 
-// Add the 'moveSomething' function to the Window(Global) Object
+// Add the 'moveSomething' function to the Window(Global)
 window.addEventListener("keydown", moveSomething, false);
 
 function moveSomething(e) {

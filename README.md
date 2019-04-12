@@ -1,4 +1,4 @@
-# portfolio-builder
+# Dev-Workshop
 
 ## Learning the Chrome Dev-Tools :wrench:
 
@@ -19,6 +19,11 @@
 1. adding your Building Blocks
 1. push changes to github :octocat:
 1. celebrate :fire:
+
+## Learn by creating games
+
+1. HangMan.js
+1. Snake.js
 
 ## Cool Tools :hammer: and shortcuts :scissors:
 
