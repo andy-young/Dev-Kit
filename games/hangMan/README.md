@@ -79,4 +79,5 @@ secretWord = ['h', 'a', 'c', 'k', 'e', 'r'];
 Now what about keeping track of the guesses? Should we keep track of the correct guesses?..
  the incorrect guesses?.. both? Can we get by with one variable?
 
+## Designing the game loop
 
