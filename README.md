@@ -31,6 +31,7 @@
 1. [Zenhub](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd)
 1. [Vim in Browser](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
 1. [move tabs](https://chrome.google.com/webstore/detail/rearrange-tabs/ccnnhhnmpoffieppjjkhdakcoejcpbga)
+1. [Search MDN](https://chrome.google.com/webstore/detail/mdn-search/ffpifaemeofjmncjdbegmbpcdaemkeoc?hl=en)
 
 ### Command Line Trainer
 
