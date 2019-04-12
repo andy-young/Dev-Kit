@@ -18,7 +18,6 @@
 1. clone `portfolio-builder`
 1. adding your Building Blocks
 1. push changes to github :octocat:
-1. celebrate :fire:
 
 ## Learn by creating games
 

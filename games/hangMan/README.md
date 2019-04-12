@@ -79,5 +79,46 @@ secretWord = ['h', 'a', 'c', 'k', 'e', 'r'];
 Now what about keeping track of the guesses? Should we keep track of the correct guesses?..
  the incorrect guesses?.. both? Can we get by with one variable?
 
-## Designing the game loop
+## Designing the Game Loop
 
+Almost all computer games are build around a loop of some kind. A game loop generally does the following:
+
+1. Takes input from the player
+1. Updates the game state
+1. Displays the current state of the game to the player
+
+In the case of our HangMan game, the program takes a guess from the player, updates the answer array
+if the guess is correct, and displays the new state of the answer array.
+
+Once the player guesses all letters in the word, we show the completed word and a congratulatory message
+telling them that they won.
+
+## Coding the Game
+
+Now that we have the general idea, let's begin to build out each section of working code.
+
+### Choosing a Random Word
+
+We need to create a bank of works with which to choose from, and create a `const` which will capture
+a random _secretWord_ from the `words` array.
+
+```js
+const words = ['javascript', 'hacker', 'grok', 'algorithm', 'keyboard'];
+
+const word = words[Math.floor(Math.random() * words.length)];
+```
+
+### Creating the Answer Array
+
+Next we create an empty array called `answerArray` and fill it with underscores (_) to match the number of
+letters in the word.
+
+```js
+const answerArray = [];
+
+for(let i = 0; i < word.length; i++) {
+	answerArray[i] = "_";
+}
+
+let remainingLetters = word.length;
+```
