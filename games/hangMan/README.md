@@ -149,3 +149,23 @@ We use a `while` loop, which will keep looping as long as `remainingLetters > 0`
 `remainingLetters` for every correct guess the player makes. Once the player has guessed all the letters, `remainingLetters` will be
 0 and the loop will end.
 
+#### How we will show the player's progress
+
+We can use an alert to show the current progress. Now while in the alert we can `join` the array to create a string, using the
+space character as a separator.
+
+```js
+alert(answerArray.join(" "));
+```
+
+#### Handling the player's input
+
+```js
+let guess = prompt("Guess a letter, or click Cancel to stop playing.");
+if (guess === null) {
+	break;
+} else if (guess.lenth !== 1) {
+	alert("Please enter a single letter.");
+} else {
+	// Update the game state with the guess
+}
