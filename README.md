@@ -15,7 +15,7 @@
 
 ## Start adding Building Blocks to your portfolio
 
-1. clone `portfolio-builder`
+1. clone `Junior-Dev-Kit`
 1. adding your Building Blocks
 1. push changes to github :octocat:
 
