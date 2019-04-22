@@ -1,0 +1,1 @@
+const isOldEnoughToVote = age => age > 17;
